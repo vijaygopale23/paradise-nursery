@@ -1,0 +1,27 @@
+﻿<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1600 1000\" role=\"img\" aria-label=\"Nursery background\">
+  <defs>
+    <linearGradient id=\"sky\" x1=\"0\" x2=\"0\" y1=\"0\" y2=\"1\">
+      <stop offset=\"0%\" stop-color=\"#eefaf1\"/>
+      <stop offset=\"100%\" stop-color=\"#dcefdc\"/>
+    </linearGradient>
+    <linearGradient id=\"hill\" x1=\"0\" x2=\"1\" y1=\"0\" y2=\"0\">
+      <stop offset=\"0%\" stop-color=\"#8bcf96\"/>
+      <stop offset=\"100%\" stop-color=\"#6aa86b\"/>
+    </linearGradient>
+  </defs>
+  <rect width=\"1600\" height=\"1000\" fill=\"url(#sky)\"/>
+  <g opacity=\"0.95\">
+    <circle cx=\"1260\" cy=\"150\" r=\"90\" fill=\"#f2e8b0\"/>
+    <circle cx=\"1350\" cy=\"210\" r=\"70\" fill=\"#f9f2c9\"/>
+    <circle cx=\"1180\" cy=\"230\" r=\"60\" fill=\"#f0e7b1\"/>
+  </g>
+  <path d=\"M0 700 C260 620, 410 620, 580 690 S980 770, 1160 690 S1420 620, 1600 710 L1600 1000 L0 1000 Z\" fill=\"url(#hill)\"/>
+  <path d=\"M0 780 C190 740, 340 760, 520 820 S980 900, 1170 820 S1430 740, 1600 800 L1600 1000 L0 1000 Z\" fill=\"#5a9a67\" opacity=\"0.9\"/>
+  <g fill=\"#3f8f5a\" stroke=\"#2f6d47\" stroke-width=\"7\" stroke-linecap=\"round\" stroke-linejoin=\"round\">
+    <path d=\"M190 770 C140 690, 120 580, 180 480 C200 530, 220 560, 250 590 C230 720, 220 760, 190 770 Z\"/>
+    <path d=\"M360 780 C315 700, 310 585, 370 500 C395 540, 420 565, 455 590 C426 720, 390 760, 360 780 Z\"/>
+    <path d=\"M520 790 C470 700, 450 620, 510 510 C555 560, 585 580, 610 610 C590 710, 565 760, 520 790 Z\"/>
+    <path d=\"M1180 790 C1130 700, 1105 615, 1160 510 C1200 560, 1235 585, 1270 610 C1245 710, 1210 760, 1180 790 Z\"/>
+    <path d=\"M1360 770 C1310 700, 1300 600, 1355 500 C1395 550, 1415 580, 1450 610 C1418 700, 1390 745, 1360 770 Z\"/>
+  </g>
+</svg>
